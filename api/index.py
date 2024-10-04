@@ -169,6 +169,10 @@ def predictllm():
         return jsonify({'error': str(e)})
 
 
+@app.route('/')
+def home():
+    return render_template('index.html')
+
 
 if __name__ == "__main__":
     app.run(debug=True )
