@@ -1,7 +1,0 @@
-flask==3.0.3
-flask_cors==5.0.0
-tensorflow==2.17.0
-numpy==1.26.4
-keras==3.5.0
-werkzeug==3.0.4
-pandas==2.2.2
